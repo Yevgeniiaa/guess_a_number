@@ -36,7 +36,7 @@ function soundToggle() {
 
 let bgSong = new Audio();
 bgSong.src =
-  "http://commondatastorage.googleapis.com/codeskulptor-assets/sounddogs/soundtrack.mp3";
+  " ";
 bgSong.level = 0.1;
 
 let winSound = new Audio();
@@ -62,6 +62,11 @@ function startGame() {
   }
   bgMusic.play();
 }
+
+
+
+
+
 
 function guess() {
   const guessedNumber = parseInt(this.textContent);
